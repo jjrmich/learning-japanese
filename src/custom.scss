@@ -1,6 +1,40 @@
 // Override default variables before the import
-$body-bg: #212529;
-$card-bg: #343a40;
-$card-color: #fff;
+// $body-bg: #212529;
+// $card-bg: #343a40;
+// $card-color: #fff;
+
+$blue: #2B70C9;
+$indigo: #ce82ff;
+$purple: #9069cd;
+$pink: #ffaade;
+$red: #ff4b4b;
+$orange: #ff9600;
+$yellow: #ffc800;
+$green: #58CC02;
+$teal: #89e219;
+$cyan: #84d8ff;
+$black: #4b4b4b;
+
+$white: #FFFFFF;
+$gray-100: #f7f7f7;
+$gray-200: #e5e5e5;
+$gray-300: #afafaf;
+$gray-400: #777777;
+$gray-500: #4b4b4b;
+
+$polar-dark: #202f36;
+
+$primary: $green;
+$secondary: $blue;
+
+// $font-family-sans-serif: "Nunito", "IBM Plex Sans JP", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// $font-family-sans-serif: "Nunito", "Tsukushi A Round Gothic", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// $font-family-sans-serif: "Nunito", "BIZ UDGothic", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: "Nunito", "M PLUS Rounded 1c", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$card-box-shadow: 0 2px 0 $gray-200;
+$card-border-color: $gray-200;
+$card-color: $black;
+
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
