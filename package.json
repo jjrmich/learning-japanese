@@ -1,7 +1,7 @@
 {
   "name": "japanese-supplement",
   "version": "0.1.0",
-  "homepage": "https://jjrmich.github.io/japanese",
+  "homepage": "https://jjrmich.github.io/learning-japanese",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
